@@ -1,25 +1,30 @@
 package Percabangan;
 
 public class Switch {
-    public static void main(String[] args) {
-        char jalanJalan = 3;
-        switch (jalanJalan) {
-            case 1:
-                System.out.println("urang lapas");
-                break;
-            case 2:
-                System.out.println("urang acayan");
-                break;
-            case 3:
-                System.out.println("ubat nyamuk");
-                break;
-            case 4:
-                System.out.println("dubil dit");
-                break;
-            default:
-                System.out.println("mahluk halus");
-                break;
+        public static void main(String[] args) {
+            char Nilai = 'D';
+            switch (Nilai){
+                case 'A':
+                    System.out.println("Mhs     :\"Terimakasih Pak ^^\"");
+                    System.out.println("Dosen   :\"Selamat ya !!\"");
+                    break;
+                case 'B':
+                    System.out.println("Mhs     :\"Kenapa ulun kada dapat A, Pak? \"");
+                    System.out.println("Dosen   :\"!@#$%\"");
+                    break;
+                case 'C':
+                    System.out.println("Mhs     :\"Ulun turun pul pak ai, tugas pul jua \"");
+                    System.out.println("Dosen   :\"Tapi bisa lah menjawab ujian?\"");
+                    System.out.println("Mhs     :\"Hihihi.. \"");
+                    break;
+                default:
+                    System.out.println("Mhs     :\"Ulun turun pul pak ai, tugas pul jua \"");
+                    System.out.println("Dosen   :\"Bujur jua kah?\"");
+                    System.out.println("Dosen   :\"*Memeriksa Berkas..*\"");
+                    System.out.println("Dosen   :\"*Menceleng!!*\"");
+                    System.out.println("Mhs     :\"Kabur.. \"");
+                    break;
+            }
 
         }
-    }
 }
